@@ -1,0 +1,91 @@
+{
+  "categories": [
+    {
+      "id": 201,
+      "name": "check",
+      "description": "X-rays,sonar"
+    },
+    {
+      "id": 202,
+      "name": "analyzes",
+      "description": "cpc,urea"
+    },
+    {
+      "id": 203,
+      "name": "Consultancy",
+      "description": "Consultancy Service"
+    }
+  ],
+  "PatientCategories": [
+    {
+      "id": 601,
+      "name": "Diamond",
+      "description": "First Class Patient"
+    },
+    {
+      "id": 602,
+      "name": "Gold",
+      "description": "Second Class Patient"
+    },
+    {
+      "id": 603,
+      "name": "Silver",
+      "description": "Third Class Patient"
+    },
+    {
+      "id": 604,
+      "name": "Bronze",
+      "description": "Fourth Class Patient"
+    }
+  ],
+  "Patients": [
+    {
+      "id": 702,
+      "name": "Alshamimaa ali",
+      "email": "info@AlshamimaaAli.com",
+      "CategoryId": "202",
+      "patientCategoryId": "602",
+      "imageUrl": "https://placehold.co/120x30/brown/white"
+    },
+    {
+      "id": 703,
+      "name": "Fatma magdy",
+      "email": "info@FatmaMagdy.com",
+      "CategoryId": "203",
+      "patientCategoryId": "601",
+      "imageUrl": "https://placehold.co/130x30/yellow/black"
+    },
+    {
+      "name": "Basma ali",
+      "email": "infor@Basma ali.com",
+      "CategoryId": "203",
+      "patientCategoryId": "604",
+      "imageUrl": "https://placehold.co/115x30",
+      "id": 705
+    },
+    {
+      "name": "eman morad",
+      "email": "info@emanMorad.com",
+      "CategoryId": "201",
+      "patientCategoryId": "602",
+      "imageUrl": "https://placehold.co/135x30/black/white",
+      "id": 706
+    },
+    {
+      "name": "pat1",
+      "email": "pat1@gmail.com",
+      "CategoryId": "202",
+      "patientCategoryId": "601",
+      "imageUrl": "https://placehold.co/110x30/blue/white",
+      "id": 707
+    },
+    {
+      "name": "pat2",
+      "email": "pat2@gmail.com",
+      "CategoryId": "202",
+      "patientCategoryId": "603",
+      "imageUrl": "https://placehold.co/110x30/blue/white",
+      "id": 708
+    }
+  ]
+}
